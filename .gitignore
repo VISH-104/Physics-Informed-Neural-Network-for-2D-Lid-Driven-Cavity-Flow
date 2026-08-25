@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and numpy arrays
+*.pt
+*.pth
+*.npz
+*.npy
+
+# Figure generation outputs (optional, depending on preference, but good practice to ignore runtime outputs)
+# We will keep figures/ directory but ignore runtime generated images inside it if preferred, 
+# but usually we want to commit final figures. Let's ignore root dir figures if they leak.
+*.png
+!figures/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
